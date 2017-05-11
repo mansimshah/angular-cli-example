@@ -11,7 +11,6 @@ System.register(["angular2/platform/browser", "./app.component"], function(expor
                 app_component_1 = app_component_1_1;
             }],
         execute: function() {
-            // import {AppModule} from "./module";
             // import { APP_ROUTER_PROVIDERS } from './app.routes';
             // bootstrap(AppComponent, [APP_ROUTER_PROVIDERS]);
             browser_1.bootstrap(app_component_1.AppComponent);

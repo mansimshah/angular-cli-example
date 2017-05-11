@@ -30,7 +30,7 @@ System.register(["angular2/core", "./courses.component", "./authors.component"],
                 AppComponent = __decorate([
                     core_1.Component({
                         selector: 'my-app',
-                        template: "<h1>Angular App </h1><courses></courses><authors></authors>\n   \t\t\t\t",
+                        template: "<h1>Angular App </h1><courses></courses><authors></authors>\n   \t\t\t   <div>\n\t\t            <p>\n\t\t                <a href=\"/courses\">Course</a> |\n\t\t                <a href=\"/authors\">Author</a>\n\t\t            </p>\n\t\t            <div>\n\t\t                <router-outlet></router-outlet>\n\t\t            </div>    \n        \t\t</div>\n   \t\t\t\t",
                         directives: [courses_component_1.CoursesComponent, authors_component_1.AuthorsComponent]
                     }), 
                     __metadata('design:paramtypes', [])
